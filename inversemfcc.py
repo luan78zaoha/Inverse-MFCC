@@ -10,6 +10,7 @@ from IPython.lib.display import Audio
 import matplotlib.pyplot as plt
 import librosa.display
 
+
 class InverseMfcc(object):
 
     def __init__(self, orig, sr):
